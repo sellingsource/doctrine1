@@ -19,9 +19,6 @@
  * <http://www.doctrine-project.org>.
  */
 
-// Backwards compatability for non-composer projects.
-if (!class_exists('Doctrine_Core')) require_once 'Doctrine/Core.php';
-
 /**
  * This class only exists for backwards compatability. All code was moved to 
  * Doctrine_Core and this class extends Doctrine_Core
